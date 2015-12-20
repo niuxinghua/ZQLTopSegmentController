@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402C3DDD1C26EA4D001A0BD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3DDC1C26EA4D001A0BD2 /* main.m */; };
+		402C3DE01C26EA4D001A0BD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3DDF1C26EA4D001A0BD2 /* AppDelegate.m */; };
+		402C3DE31C26EA4D001A0BD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3DE21C26EA4D001A0BD2 /* ViewController.m */; };
+		402C3DE61C26EA4D001A0BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402C3DE41C26EA4D001A0BD2 /* Main.storyboard */; };
+		402C3DE81C26EA4D001A0BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402C3DE71C26EA4D001A0BD2 /* Assets.xcassets */; };
+		402C3DEB1C26EA4D001A0BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402C3DE91C26EA4D001A0BD2 /* LaunchScreen.storyboard */; };
+		402C3DF61C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3DF51C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m */; };
+		402C3E011C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E001C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402C3DF21C26EA4D001A0BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402C3DD01C26EA4D001A0BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402C3DD71C26EA4D001A0BD2;
+			remoteInfo = ZQLTopSegmentController;
+		};
+		402C3DFD1C26EA4D001A0BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402C3DD01C26EA4D001A0BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402C3DD71C26EA4D001A0BD2;
+			remoteInfo = ZQLTopSegmentController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		402C3DD81C26EA4D001A0BD2 /* ZQLTopSegmentController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQLTopSegmentController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402C3DDC1C26EA4D001A0BD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		402C3DDE1C26EA4D001A0BD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		402C3DDF1C26EA4D001A0BD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		402C3DE11C26EA4D001A0BD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		402C3DE21C26EA4D001A0BD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		402C3DE51C26EA4D001A0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		402C3DE71C26EA4D001A0BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		402C3DEA1C26EA4D001A0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		402C3DEC1C26EA4D001A0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402C3DF11C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLTopSegmentControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402C3DF51C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLTopSegmentControllerTests.m; sourceTree = "<group>"; };
+		402C3DF71C26EA4D001A0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402C3DFC1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLTopSegmentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402C3E001C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLTopSegmentControllerUITests.m; sourceTree = "<group>"; };
+		402C3E021C26EA4D001A0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402C3DD51C26EA4D001A0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DEE1C26EA4D001A0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DF91C26EA4D001A0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402C3DCF1C26EA4D001A0BD2 = {
+			isa = PBXGroup;
+			children = (
+				402C3DDA1C26EA4D001A0BD2 /* ZQLTopSegmentController */,
+				402C3DF41C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests */,
+				402C3DFF1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests */,
+				402C3DD91C26EA4D001A0BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402C3DD91C26EA4D001A0BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402C3DD81C26EA4D001A0BD2 /* ZQLTopSegmentController.app */,
+				402C3DF11C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.xctest */,
+				402C3DFC1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402C3DDA1C26EA4D001A0BD2 /* ZQLTopSegmentController */ = {
+			isa = PBXGroup;
+			children = (
+				402C3DDE1C26EA4D001A0BD2 /* AppDelegate.h */,
+				402C3DDF1C26EA4D001A0BD2 /* AppDelegate.m */,
+				402C3DE11C26EA4D001A0BD2 /* ViewController.h */,
+				402C3DE21C26EA4D001A0BD2 /* ViewController.m */,
+				402C3DE41C26EA4D001A0BD2 /* Main.storyboard */,
+				402C3DE71C26EA4D001A0BD2 /* Assets.xcassets */,
+				402C3DE91C26EA4D001A0BD2 /* LaunchScreen.storyboard */,
+				402C3DEC1C26EA4D001A0BD2 /* Info.plist */,
+				402C3DDB1C26EA4D001A0BD2 /* Supporting Files */,
+			);
+			path = ZQLTopSegmentController;
+			sourceTree = "<group>";
+		};
+		402C3DDB1C26EA4D001A0BD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				402C3DDC1C26EA4D001A0BD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		402C3DF41C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				402C3DF51C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m */,
+				402C3DF71C26EA4D001A0BD2 /* Info.plist */,
+			);
+			path = ZQLTopSegmentControllerTests;
+			sourceTree = "<group>";
+		};
+		402C3DFF1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				402C3E001C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m */,
+				402C3E021C26EA4D001A0BD2 /* Info.plist */,
+			);
+			path = ZQLTopSegmentControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402C3DD71C26EA4D001A0BD2 /* ZQLTopSegmentController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402C3E051C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentController" */;
+			buildPhases = (
+				402C3DD41C26EA4D001A0BD2 /* Sources */,
+				402C3DD51C26EA4D001A0BD2 /* Frameworks */,
+				402C3DD61C26EA4D001A0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQLTopSegmentController;
+			productName = ZQLTopSegmentController;
+			productReference = 402C3DD81C26EA4D001A0BD2 /* ZQLTopSegmentController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		402C3DF01C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402C3E081C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentControllerTests" */;
+			buildPhases = (
+				402C3DED1C26EA4D001A0BD2 /* Sources */,
+				402C3DEE1C26EA4D001A0BD2 /* Frameworks */,
+				402C3DEF1C26EA4D001A0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402C3DF31C26EA4D001A0BD2 /* PBXTargetDependency */,
+			);
+			name = ZQLTopSegmentControllerTests;
+			productName = ZQLTopSegmentControllerTests;
+			productReference = 402C3DF11C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		402C3DFB1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402C3E0B1C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentControllerUITests" */;
+			buildPhases = (
+				402C3DF81C26EA4D001A0BD2 /* Sources */,
+				402C3DF91C26EA4D001A0BD2 /* Frameworks */,
+				402C3DFA1C26EA4D001A0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402C3DFE1C26EA4D001A0BD2 /* PBXTargetDependency */,
+			);
+			name = ZQLTopSegmentControllerUITests;
+			productName = ZQLTopSegmentControllerUITests;
+			productReference = 402C3DFC1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402C3DD01C26EA4D001A0BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "臧其龙";
+				TargetAttributes = {
+					402C3DD71C26EA4D001A0BD2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					402C3DF01C26EA4D001A0BD2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 402C3DD71C26EA4D001A0BD2;
+					};
+					402C3DFB1C26EA4D001A0BD2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 402C3DD71C26EA4D001A0BD2;
+					};
+				};
+			};
+			buildConfigurationList = 402C3DD31C26EA4D001A0BD2 /* Build configuration list for PBXProject "ZQLTopSegmentController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 402C3DCF1C26EA4D001A0BD2;
+			productRefGroup = 402C3DD91C26EA4D001A0BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402C3DD71C26EA4D001A0BD2 /* ZQLTopSegmentController */,
+				402C3DF01C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests */,
+				402C3DFB1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402C3DD61C26EA4D001A0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C3DEB1C26EA4D001A0BD2 /* LaunchScreen.storyboard in Resources */,
+				402C3DE81C26EA4D001A0BD2 /* Assets.xcassets in Resources */,
+				402C3DE61C26EA4D001A0BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DEF1C26EA4D001A0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DFA1C26EA4D001A0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402C3DD41C26EA4D001A0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C3DE31C26EA4D001A0BD2 /* ViewController.m in Sources */,
+				402C3DE01C26EA4D001A0BD2 /* AppDelegate.m in Sources */,
+				402C3DDD1C26EA4D001A0BD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DED1C26EA4D001A0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C3DF61C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402C3DF81C26EA4D001A0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C3E011C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402C3DF31C26EA4D001A0BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402C3DD71C26EA4D001A0BD2 /* ZQLTopSegmentController */;
+			targetProxy = 402C3DF21C26EA4D001A0BD2 /* PBXContainerItemProxy */;
+		};
+		402C3DFE1C26EA4D001A0BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402C3DD71C26EA4D001A0BD2 /* ZQLTopSegmentController */;
+			targetProxy = 402C3DFD1C26EA4D001A0BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		402C3DE41C26EA4D001A0BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				402C3DE51C26EA4D001A0BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		402C3DE91C26EA4D001A0BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				402C3DEA1C26EA4D001A0BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		402C3E031C26EA4D001A0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		402C3E041C26EA4D001A0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		402C3E061C26EA4D001A0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQLTopSegmentController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		402C3E071C26EA4D001A0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQLTopSegmentController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		402C3E091C26EA4D001A0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQLTopSegmentControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQLTopSegmentController.app/ZQLTopSegmentController";
+			};
+			name = Debug;
+		};
+		402C3E0A1C26EA4D001A0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQLTopSegmentControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQLTopSegmentController.app/ZQLTopSegmentController";
+			};
+			name = Release;
+		};
+		402C3E0C1C26EA4D001A0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQLTopSegmentControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQLTopSegmentController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		402C3E0D1C26EA4D001A0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQLTopSegmentControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLTopSegmentControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQLTopSegmentController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402C3DD31C26EA4D001A0BD2 /* Build configuration list for PBXProject "ZQLTopSegmentController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402C3E031C26EA4D001A0BD2 /* Debug */,
+				402C3E041C26EA4D001A0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402C3E051C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402C3E061C26EA4D001A0BD2 /* Debug */,
+				402C3E071C26EA4D001A0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		402C3E081C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402C3E091C26EA4D001A0BD2 /* Debug */,
+				402C3E0A1C26EA4D001A0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		402C3E0B1C26EA4D001A0BD2 /* Build configuration list for PBXNativeTarget "ZQLTopSegmentControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402C3E0C1C26EA4D001A0BD2 /* Debug */,
+				402C3E0D1C26EA4D001A0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 402C3DD01C26EA4D001A0BD2 /* Project object */;
+}
