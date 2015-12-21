@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="kTopSegmentCollectionViewCellID" id="v3w-v3-Avd" customClass="TopSegmentCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="104" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxw-m1-Qu8">
+                        <rect key="frame" x="30" y="20" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="BaG-s8-tqX"/>
+                            <constraint firstAttribute="height" constant="44" id="znS-p2-Ea8"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Yxw-m1-Qu8" firstAttribute="centerY" secondItem="v3w-v3-Avd" secondAttribute="centerY" id="F7a-ei-4BL"/>
+                <constraint firstItem="Yxw-m1-Qu8" firstAttribute="centerX" secondItem="v3w-v3-Avd" secondAttribute="centerX" id="PUm-dJ-VPh"/>
+            </constraints>
+            <size key="customSize" width="104" height="80"/>
+            <connections>
+                <outlet property="cellIconButton" destination="Yxw-m1-Qu8" id="gBJ-ir-nFO"/>
+            </connections>
+            <point key="canvasLocation" x="244" y="335"/>
+        </collectionViewCell>
+    </objects>
+</document>
