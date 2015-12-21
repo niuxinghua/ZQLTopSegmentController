@@ -15,13 +15,13 @@
 		402C3DEB1C26EA4D001A0BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402C3DE91C26EA4D001A0BD2 /* LaunchScreen.storyboard */; };
 		402C3DF61C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3DF51C26EA4D001A0BD2 /* ZQLTopSegmentControllerTests.m */; };
 		402C3E011C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E001C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m */; };
-		402C3E101C26EAA1001A0BD2 /* ZQLTopSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E0F1C26EAA1001A0BD2 /* ZQLTopSegmentViewController.m */; };
-		402C3E131C26EEE5001A0BD2 /* TopSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E121C26EEE5001A0BD2 /* TopSegmentManager.m */; };
-		402C3E161C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E151C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.m */; };
-		402C3E181C26F202001A0BD2 /* TopSegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402C3E171C26F202001A0BD2 /* TopSegmentCollectionViewCell.xib */; };
-		402C3E2B1C27D0C9001A0BD2 /* ContentCollectionViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E2A1C27D0C9001A0BD2 /* ContentCollectionViewManager.m */; };
-		402C3E321C27D1EF001A0BD2 /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E301C27D1EF001A0BD2 /* ContentCollectionViewCell.m */; };
-		402C3E331C27D1EF001A0BD2 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402C3E311C27D1EF001A0BD2 /* ContentCollectionViewCell.xib */; };
+		402C3E401C27F77E001A0BD2 /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E351C27F77E001A0BD2 /* ContentCollectionViewCell.m */; };
+		402C3E411C27F77E001A0BD2 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402C3E361C27F77E001A0BD2 /* ContentCollectionViewCell.xib */; };
+		402C3E421C27F77E001A0BD2 /* ContentCollectionViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E381C27F77E001A0BD2 /* ContentCollectionViewManager.m */; };
+		402C3E431C27F77E001A0BD2 /* TopSegmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E3A1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.m */; };
+		402C3E441C27F77E001A0BD2 /* TopSegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402C3E3B1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.xib */; };
+		402C3E451C27F77E001A0BD2 /* TopSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E3D1C27F77E001A0BD2 /* TopSegmentManager.m */; };
+		402C3E461C27F77E001A0BD2 /* ZQLTopSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C3E3F1C27F77E001A0BD2 /* ZQLTopSegmentViewController.m */; };
 		80F585566ADBAC45BE50B010 /* Pods_ZQLTopSegmentController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBED6B169C29612160E819FE /* Pods_ZQLTopSegmentController.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,18 +59,18 @@
 		402C3DFC1C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLTopSegmentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		402C3E001C26EA4D001A0BD2 /* ZQLTopSegmentControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLTopSegmentControllerUITests.m; sourceTree = "<group>"; };
 		402C3E021C26EA4D001A0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		402C3E0E1C26EAA1001A0BD2 /* ZQLTopSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLTopSegmentViewController.h; sourceTree = "<group>"; };
-		402C3E0F1C26EAA1001A0BD2 /* ZQLTopSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLTopSegmentViewController.m; sourceTree = "<group>"; };
-		402C3E111C26EEE5001A0BD2 /* TopSegmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSegmentManager.h; sourceTree = "<group>"; };
-		402C3E121C26EEE5001A0BD2 /* TopSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSegmentManager.m; sourceTree = "<group>"; };
-		402C3E141C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSegmentCollectionViewCell.h; sourceTree = "<group>"; };
-		402C3E151C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSegmentCollectionViewCell.m; sourceTree = "<group>"; };
-		402C3E171C26F202001A0BD2 /* TopSegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSegmentCollectionViewCell.xib; sourceTree = "<group>"; };
-		402C3E291C27D0C9001A0BD2 /* ContentCollectionViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewManager.h; sourceTree = "<group>"; };
-		402C3E2A1C27D0C9001A0BD2 /* ContentCollectionViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewManager.m; sourceTree = "<group>"; };
-		402C3E2F1C27D1EF001A0BD2 /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
-		402C3E301C27D1EF001A0BD2 /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
-		402C3E311C27D1EF001A0BD2 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		402C3E341C27F77E001A0BD2 /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
+		402C3E351C27F77E001A0BD2 /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
+		402C3E361C27F77E001A0BD2 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		402C3E371C27F77E001A0BD2 /* ContentCollectionViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewManager.h; sourceTree = "<group>"; };
+		402C3E381C27F77E001A0BD2 /* ContentCollectionViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewManager.m; sourceTree = "<group>"; };
+		402C3E391C27F77E001A0BD2 /* TopSegmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSegmentCollectionViewCell.h; sourceTree = "<group>"; };
+		402C3E3A1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSegmentCollectionViewCell.m; sourceTree = "<group>"; };
+		402C3E3B1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		402C3E3C1C27F77E001A0BD2 /* TopSegmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSegmentManager.h; sourceTree = "<group>"; };
+		402C3E3D1C27F77E001A0BD2 /* TopSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSegmentManager.m; sourceTree = "<group>"; };
+		402C3E3E1C27F77E001A0BD2 /* ZQLTopSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLTopSegmentViewController.h; sourceTree = "<group>"; };
+		402C3E3F1C27F77E001A0BD2 /* ZQLTopSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLTopSegmentViewController.m; sourceTree = "<group>"; };
 		814A061B57C97B535361B12B /* Pods-ZQLTopSegmentController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLTopSegmentController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQLTopSegmentController/Pods-ZQLTopSegmentController.release.xcconfig"; sourceTree = "<group>"; };
 		8789488CFF61092878DE5518 /* Pods-ZQLTopSegmentController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLTopSegmentController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZQLTopSegmentController/Pods-ZQLTopSegmentController.debug.xcconfig"; sourceTree = "<group>"; };
 		DBED6B169C29612160E819FE /* Pods_ZQLTopSegmentController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQLTopSegmentController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,18 +170,18 @@
 		402C3E1C1C26F8DF001A0BD2 /* ZQLSegment */ = {
 			isa = PBXGroup;
 			children = (
-				402C3E0E1C26EAA1001A0BD2 /* ZQLTopSegmentViewController.h */,
-				402C3E0F1C26EAA1001A0BD2 /* ZQLTopSegmentViewController.m */,
-				402C3E141C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.h */,
-				402C3E151C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.m */,
-				402C3E171C26F202001A0BD2 /* TopSegmentCollectionViewCell.xib */,
-				402C3E111C26EEE5001A0BD2 /* TopSegmentManager.h */,
-				402C3E121C26EEE5001A0BD2 /* TopSegmentManager.m */,
-				402C3E291C27D0C9001A0BD2 /* ContentCollectionViewManager.h */,
-				402C3E2A1C27D0C9001A0BD2 /* ContentCollectionViewManager.m */,
-				402C3E2F1C27D1EF001A0BD2 /* ContentCollectionViewCell.h */,
-				402C3E301C27D1EF001A0BD2 /* ContentCollectionViewCell.m */,
-				402C3E311C27D1EF001A0BD2 /* ContentCollectionViewCell.xib */,
+				402C3E341C27F77E001A0BD2 /* ContentCollectionViewCell.h */,
+				402C3E351C27F77E001A0BD2 /* ContentCollectionViewCell.m */,
+				402C3E361C27F77E001A0BD2 /* ContentCollectionViewCell.xib */,
+				402C3E371C27F77E001A0BD2 /* ContentCollectionViewManager.h */,
+				402C3E381C27F77E001A0BD2 /* ContentCollectionViewManager.m */,
+				402C3E391C27F77E001A0BD2 /* TopSegmentCollectionViewCell.h */,
+				402C3E3A1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.m */,
+				402C3E3B1C27F77E001A0BD2 /* TopSegmentCollectionViewCell.xib */,
+				402C3E3C1C27F77E001A0BD2 /* TopSegmentManager.h */,
+				402C3E3D1C27F77E001A0BD2 /* TopSegmentManager.m */,
+				402C3E3E1C27F77E001A0BD2 /* ZQLTopSegmentViewController.h */,
+				402C3E3F1C27F77E001A0BD2 /* ZQLTopSegmentViewController.m */,
 			);
 			name = ZQLSegment;
 			sourceTree = "<group>";
@@ -309,10 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402C3E181C26F202001A0BD2 /* TopSegmentCollectionViewCell.xib in Resources */,
+				402C3E411C27F77E001A0BD2 /* ContentCollectionViewCell.xib in Resources */,
 				402C3DEB1C26EA4D001A0BD2 /* LaunchScreen.storyboard in Resources */,
 				402C3DE81C26EA4D001A0BD2 /* Assets.xcassets in Resources */,
-				402C3E331C27D1EF001A0BD2 /* ContentCollectionViewCell.xib in Resources */,
+				402C3E441C27F77E001A0BD2 /* TopSegmentCollectionViewCell.xib in Resources */,
 				402C3DE61C26EA4D001A0BD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,14 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402C3E161C26F1F9001A0BD2 /* TopSegmentCollectionViewCell.m in Sources */,
-				402C3E101C26EAA1001A0BD2 /* ZQLTopSegmentViewController.m in Sources */,
+				402C3E431C27F77E001A0BD2 /* TopSegmentCollectionViewCell.m in Sources */,
+				402C3E401C27F77E001A0BD2 /* ContentCollectionViewCell.m in Sources */,
 				402C3DE31C26EA4D001A0BD2 /* ViewController.m in Sources */,
+				402C3E451C27F77E001A0BD2 /* TopSegmentManager.m in Sources */,
+				402C3E461C27F77E001A0BD2 /* ZQLTopSegmentViewController.m in Sources */,
+				402C3E421C27F77E001A0BD2 /* ContentCollectionViewManager.m in Sources */,
 				402C3DE01C26EA4D001A0BD2 /* AppDelegate.m in Sources */,
-				402C3E2B1C27D0C9001A0BD2 /* ContentCollectionViewManager.m in Sources */,
-				402C3E131C26EEE5001A0BD2 /* TopSegmentManager.m in Sources */,
 				402C3DDD1C26EA4D001A0BD2 /* main.m in Sources */,
-				402C3E321C27D1EF001A0BD2 /* ContentCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
